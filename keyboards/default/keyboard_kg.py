@@ -2,11 +2,14 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 kb_kg = ReplyKeyboardMarkup(keyboard=[
     [
-        KeyboardButton(text='1'),
-        KeyboardButton(text='2')
+        KeyboardButton(text='Насыялар'),
+        KeyboardButton(text='Төлөө ыкмалары')
     ],
     [
-        KeyboardButton(text='3'),
-        KeyboardButton(text='4')
-    ]
-])
+        KeyboardButton(text='Онлайн насыялар'),
+        KeyboardButton(text='Биздин Филиалдар')
+    ],
+    [
+        KeyboardButton(text='Адис менен байланышуу')
+    ],
+], resize_keyboard=True)

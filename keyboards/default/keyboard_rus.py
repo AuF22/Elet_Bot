@@ -2,11 +2,14 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 kb_rus = ReplyKeyboardMarkup(keyboard=[
     [
-        KeyboardButton(text='Насыя'),
-        KeyboardButton(text='Аманат')
+        KeyboardButton(text='Кредиты'),
+        KeyboardButton(text='Способы оплаты')
     ],
     [
-        KeyboardButton(text='График'),
-        KeyboardButton(text='Слово')
-    ]
-])
+        KeyboardButton(text='Онлайн кредиты'),
+        KeyboardButton(text='Наши Филиалы')
+    ],
+    [
+        KeyboardButton(text='Связаться с оператором')
+    ],
+], resize_keyboard=True)

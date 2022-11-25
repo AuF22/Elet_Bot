@@ -1,3 +1,4 @@
+"""Загружаем основной dp"""
 from aiogram import Bot, Dispatcher, types
 from Data import config
 
