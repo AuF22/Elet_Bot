@@ -7,5 +7,5 @@ ikb_loan = InlineKeyboardMarkup(row_width=1,
                                     [InlineKeyboardButton(text='Доступный', callback_data='Доступный')],
                                     [InlineKeyboardButton(text='Обеспеченный', callback_data='Обеспеченный')],
                                     [InlineKeyboardButton(text='Элет Кредиты', callback_data='Элет Кредиты')],
-                                    [InlineKeyboardButton(text='Элет-Курулуш', callback_data='Элет-Курулуш')]
+                                    [InlineKeyboardButton(text='Элет-Курулуш', callback_data='Элет-Курулуш_rus')]
                                 ])
